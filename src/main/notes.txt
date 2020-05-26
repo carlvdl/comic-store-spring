@@ -22,24 +22,3 @@ sudo -u postgres psql -c "CREATE DATABASE comicstore;"
 postgres-# exit
 
 
-watch -n 4 curl -r 0-99  https://escortnetwork.co.za/escort/layla-dream/
-
-watch -n 4 curl -r 0-99  https://escortnetwork.co.za/escort/carla-afrikaans-blonde/
-
-watch -n 4 curl -r 0-99 https://escortnetwork.co.za/escort/melody-2/
-
-watch -n 1 curl -r 0-99 https://escortnetwork.co.za/escort/hailey/
-
-watch -n 4 curl -r 0-99 https://escortnetwork.co.za/escort/caprice-2/
-
-watch -n 4 curl -r 0-99 https://escortnetwork.co.za/escort/artemis-2/
-
-
-watch -n 4 curl -r 0-99 https://escortnetwork.co.za/escort/amy-6/
-
-watch -n 4 curl -r 0-99  https://escortnetwork.co.za/escort/carla-afrikaans-blonde/
-
-
-watch -n 5 curl -r 0-99  https://escortnetwork.co.za/escort/%f0%9f%92%8bkay%f0%9f%92%8b-video-calls-and-videos/
-
-watch -n 5 curl -r 0-99 https://escortnetwork.co.za/escort/%f0%9f%86%95nina%f0%9f%98%88-live-shows-videos-nude-pics/
