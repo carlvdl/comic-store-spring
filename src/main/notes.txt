@@ -7,11 +7,6 @@ comicstore=# \dt
 Did not find any relations.
 
 
-
-[QUOTE;2349336;SouthX] Those street vendors just like me and you are trying to earn a living, some fault here and there, dont adhere to every rule, mask etc but we all human, times are tough as we all know. Being curled up in an uber, wearing a colourful mask does not make you better than then.[/QUOTE]
-
-They are peddling what little they have to survive -sometimes some of us stop and buy vegetables from them even though we dont need it, but to support them
-Same as when you peddle your online content...
 postgres-# password
 postgres-#
 
@@ -22,3 +17,6 @@ sudo -u postgres psql -c "CREATE DATABASE comicstore;"
 postgres-# exit
 
 
+https://dzone.com/articles/secure-your-method-using-aop
+
+//https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
