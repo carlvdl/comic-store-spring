@@ -18,7 +18,7 @@ public class AdminUser implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Basic(optional = false)
     @Column(name = "admin_user_id")
-    private Integer adminUserId;
+    private Long adminUserId;
 
     @Basic(optional = false)
     @NotNull
@@ -66,6 +66,8 @@ public class AdminUser implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateUpdated;
 
+    @Lob
+    private byte[] data;
 
     public AdminUser() {
     }
@@ -89,11 +91,11 @@ public class AdminUser implements Serializable {
         return serialVersionUID;
     }
 
-    public Integer getAdminUserId() {
+    public Long getAdminUserId() {
         return adminUserId;
     }
 
-    public void setAdminUserId(Integer adminUserId) {
+    public void setAdminUserId(Long adminUserId) {
         this.adminUserId = adminUserId;
     }
 

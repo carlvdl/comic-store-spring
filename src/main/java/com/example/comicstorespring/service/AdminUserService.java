@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import java.math.BigInteger;
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class AdminUserService {
@@ -30,13 +31,27 @@ public class AdminUserService {
 
     public BigInteger getAdminUserCount() {
         BigInteger totalCount = adminUserRepository.getAdminUserCount();
-//        Integer totalCount = 14;
         return totalCount;
-//        HttpHeaders responseHeaders = new HttpHeaders();
-//        responseHeaders.set("x-total-count", "14");
-//        responseHeaders.add("Access-Control-Expose-Headers", "x-total-count");
-//        responseHeaders.set("ETag", String.valueOf(new Date()));
-//        responseHeaders.set("Access-Control-Allow-Origin", "*");
-//        return responseHeaders;
     }
+
+    public AdminUser save(AdminUser adminUser) {
+        adminUser = adminUserRepository.save(adminUser);
+        return adminUser;
+    }
+
+    public AdminUser update(AdminUser adminUser) {
+        adminUser = adminUserRepository.save(adminUser);
+        return adminUser;
+    }
+
+    public AdminUser findById(Long id) {
+        Optional<AdminUser> adminUserOptional =  adminUserRepository.findById(id);
+        return adminUserOptional.get();
+    }
+
+    public void delete(AdminUser adminUser) {
+        System.out.println("deleting for now:");
+        adminUserRepository.delete(adminUser);
+    }
+
 }

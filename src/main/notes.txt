@@ -20,3 +20,12 @@ postgres-# exit
 https://dzone.com/articles/secure-your-method-using-aop
 
 //https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
+
+
+https://medium.com/@rameez.s.shaikh/upload-and-retrieve-images-using-spring-boot-angular-8-mysql-18c166f7bc98
+
+https://medium.com/@udith.indrakantha/upload-images-and-save-them-in-a-database-angular-8-spring-boot-mysql-b5144768202b
+
+https://dzone.com/articles/upload-and-retrieve-filesimages-using-spring-boot
+
+https://www.callicoder.com/spring-boot-file-upload-download-jpa-hibernate-mysql-database-example/
