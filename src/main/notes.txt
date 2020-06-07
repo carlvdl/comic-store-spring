@@ -29,3 +29,7 @@ https://medium.com/@udith.indrakantha/upload-images-and-save-them-in-a-database-
 https://dzone.com/articles/upload-and-retrieve-filesimages-using-spring-boot
 
 https://www.callicoder.com/spring-boot-file-upload-download-jpa-hibernate-mysql-database-example/
+
+Baic auth
+user
+184b9389-3842-4a4f-a5ab-2ef34e67a117
